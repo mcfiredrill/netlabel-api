@@ -1,11 +1,13 @@
 netlabel-api
 ============
 
-the netlabel API
+The central netlabel API.
 
 get overview of netlabel
 ```
 GET /maltine.json
+GET /datafruits.json
+GET /bunkai-kei.json
 ```
 
 get releases from netlabel
