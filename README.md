@@ -7,37 +7,37 @@ The central netlabel API.
 
 get overview of netlabel
 ```
-GET /maltine.json
-GET /datafruits.json
-GET /bunkai-kei.json
+GET /labels/maltine.json
+GET /labels/datafruits.json
+GET /labels/bunkai-kei.json
 ```
 
 get releases from netlabel
 
 ```
-GET /maltine/releases.json
+GET /labels/maltine/releases.json
 ```
 
 get one release
 
 ```
-GET /maltine/releases/128.json
+GET /labels/maltine/releases/128.json
 ```
 
 get artists information
 
 ```
-GET /maltine/artists.json
+GET /labels/maltine/artists.json
 ```
 
 get information about a specific artist
 
 ```
-GET /maltine/artists/parkgolf.json
+GET /labels/maltine/artists/parkgolf.json
 ```
 
 create a new release (requires oauth token with permissions for that netlabel)
 
 ```
-POST /maltine/releases.json
+POST /labels/maltine/releases.json
 ```
