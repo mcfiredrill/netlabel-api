@@ -41,3 +41,7 @@ create a new release (requires oauth token with permissions for that netlabel)
 ```
 POST /labels/maltine/releases.json
 ```
+
+## contributing
+
+If you feel more fields are needed, fork and submit a pull request.
