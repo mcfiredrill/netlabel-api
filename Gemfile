@@ -11,3 +11,8 @@ gem 'jquery-rails'
 gem 'spring',        group: :development
 
 gem 'active_model_serializers'
+
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
