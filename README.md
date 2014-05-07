@@ -3,6 +3,8 @@ netlabel-api
 
 The central netlabel API.
 
+## examples
+
 get overview of netlabel
 ```
 GET /maltine.json
