@@ -1,3 +1,7 @@
 Rails.application.routes.draw do
-  resources :releases
+  resources :labels do
+    resources :releases do
+      resources :tracks
+    end
+  end
 end
